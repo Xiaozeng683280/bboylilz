@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
+  <!-- 配置Servlet基本信息 -->
+  <servlet>
+  	<servlet-name>AddUserServlet</servlet-name>
+  	<servlet-class>web.AddUserServlet</servlet-class>
+  </servlet>
+  
+  <!-- 配置Servlet映射的路径 -->
+  <servlet-mapping>
+  	<servlet-name>AddUserServlet</servlet-name>
+  	<url-pattern>/addUser</url-pattern>
+  </servlet-mapping>
+  
+  
+  <servlet>
+  	<servlet-name>ListUserServlet</servlet-name>
+  	<servlet-class>web.ListUserServlet</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  	<servlet-name>ListUserServlet</servlet-name>
+  	<url-pattern>/listUser</url-pattern>
+  </servlet-mapping>
+  
+  
+  <servlet>
+  	<servlet-name>DelUserServlet</servlet-name>
+  	<servlet-class>web.DelUserServlet</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  	<servlet-name>DelUserServlet</servlet-name>
+  	<url-pattern>/delUser</url-pattern>  
+  </servlet-mapping>
+  
+  
+  
+</web-app>
+
+
+
+
+
+
+
+
